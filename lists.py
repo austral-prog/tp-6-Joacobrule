@@ -46,12 +46,9 @@ def list_of_lists(list_of_lists_to_modify):
     lista1 = lista_madre[0]
     lista2 = lista_madre[1]
     lista3 = lista_madre[2]
-    # arranco a modificar
     lista1 = lista1[0:2]
     lista2 = lista2[1:4]
-    # ultima lista con ultimos 2    123456 
     longitud = len(lista3)
     lista3 = lista3[longitud-2:longitud]
-    # las uno
     lista_madre =[lista1,lista2,lista3]
     return lista_madre
